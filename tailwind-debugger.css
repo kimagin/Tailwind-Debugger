@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 .debugger-container {
   @apply fixed bottom-0 left-0 mb-4 ml-4;
 }
@@ -7,7 +9,8 @@
 }
 
 .debugger-body h3 {
-  @apply text-blue-900 font-mono font-light;
+  @apply text-black font-light;
+  font-family: "Jost";
 }
 
 .info {
