@@ -1,9 +1,13 @@
 .debugger-container {
-  @apply fixed bottom-0 left-0 mb-4 ml-4 font-jost;
+  @apply fixed bottom-0 left-0 mb-4 ml-4;
 }
 
 .debugger-body {
   @apply flex flex-col-reverse md:flex-row justify-center items-start md:items-center space-x-0 space-y-2 md:space-y-0 md:space-x-2;
+}
+
+.debugger-body h3 {
+  @apply text-blue-900 font-mono font-light;
 }
 
 .info {
