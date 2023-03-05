@@ -1,3 +1,20 @@
+document.querySelector("[data-debugger]").innerHTML = `
+<div class="debugger-container">
+          <div class="debugger-body">
+            <button id="debuggerToggle" class="info debugger-expand">
+              <div class="d-open">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M9.4 18L8 16.6l4.6-4.6L8 7.4L9.4 6l6 6l-6 6Z"/></svg>
+              </div>
+            </button>
+            <h3 id="tailwindMQ" class="info">XL</h3>            
+            <h3 id="winH" class="info">windows height: 1920px</h3>
+            <h3 id="winW" class="info">windows width: 680px</h3>
+            <h3 id="mX" class="info">mouseX: 425px</h3>
+            <h3 id="mY" class="info">mouseY: 512px</h3>
+          </div>
+        </div>
+`;
+
 let mousePos = {
   x: 0,
   y: 0,
